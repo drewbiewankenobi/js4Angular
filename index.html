@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+	<title>Angularz</title>
+</head>
+<body ng-app="myApp">
+<div ng-controller="clicker" class="center">
+<button ng-click="clickHappen()">CLICK THIS</button>
+<h1> {{ greeting }} </h1>
+<button ng-click="clickLister()">NOW CLICK THIS SUCKA</button>
+<ul class = "tableStyle">
+	<li>{{ item1 }}</li>
+	<li>{{ item2 }}</li>
+	<li>{{ item3 }}</li>
+</ul>
+</div>
+</body>
+</html>
