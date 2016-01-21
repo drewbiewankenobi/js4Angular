@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+	<script type="text/javascript" src="script3.js"></script>
+	<title>Pop Up Page</title>
+</head>
+<body ng-app="popApp" ng-controller ="bodyBuilder">
+<button class="bigButton" ng-click="popUp()">CLICK TO REVEAL MY MYSTERIES</button>
+<div ng-hide="hideMe"><img class="picFixer" src="http://i.ytimg.com/vi/5b_4u054pBA/0.jpg">
+<button class="lilButton" ng-click="popUp()">GET ME OUTTA HERE, LIU KANG!</button>
+</div>
+</body>
+</html>
