@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Baconator JS4.1.2</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+	<script type="text/javascript" src="part2.js"></script>
+</head>
+<body ng-app = "myApp"  ng-controller="bodymaster">
+<img class = "pageBacker" src="http://cdn2.hubspot.net/hubfs/500440/Blog_Content/bacon.jpg"/>
+<div class="frontFloater">
+<h1 class="getCenter"> Bacon Ipsum Dolor Amet Pork Chop{{header}} </h1>
+<div>
+<p ng-class="{textcolor: hover}" ng-mouseenter="hover = true" ng-mouseleave="hover = false">Bacon ipsum dolor amet pork chop tongue alcatra, sausage meatball t-bone pork belly rump bacon brisket corned beef. Tri-tip brisket t-bone chuck, jowl leberkas chicken ham landjaeger doner cupim pork loin shank. Hamburger beef pastrami bacon turkey, pork chop doner pork belly. Ham tongue leberkas strip steak shoulder bacon, beef ribs hamburger prosciutto rump filet mignon chuck tri-tip pork chop tenderloin. Doner shoulder drumstick tail swine short loin. Beef ribs brisket turkey beef kielbasa meatball cow t-bone bacon meatloaf fatback shoulder ball tip pancetta.</p>
+<a ng-click="clickConfirm($event, 0)" ng-hide="hideMe[0]" href="http://www.google.com">This Link</a><p ng-show="hideMe[0]" class ="noLinker">{{noLink}}</p>
+</div>
+<marquee><img class = "sizer" src="http://rlv.zcache.com.au/i_love_bacon_large_square_tile-re7de786f8ac049349decb15aba884441_agtbm_8byvr_324.jpg"><img class = "sizer" src="http://rlv.zcache.com.au/i_love_bacon_large_square_tile-re7de786f8ac049349decb15aba884441_agtbm_8byvr_324.jpg"><img class = "sizer" src="http://rlv.zcache.com.au/i_love_bacon_large_square_tile-re7de786f8ac049349decb15aba884441_agtbm_8byvr_324.jpg"><img class = "sizer" src="http://rlv.zcache.com.au/i_love_bacon_large_square_tile-re7de786f8ac049349decb15aba884441_agtbm_8byvr_324.jpg"><img class = "sizer" src="http://rlv.zcache.com.au/i_love_bacon_large_square_tile-re7de786f8ac049349decb15aba884441_agtbm_8byvr_324.jpg"><img class = "sizer" src="http://rlv.zcache.com.au/i_love_bacon_large_square_tile-re7de786f8ac049349decb15aba884441_agtbm_8byvr_324.jpg"><img class = "sizer" src="http://rlv.zcache.com.au/i_love_bacon_large_square_tile-re7de786f8ac049349decb15aba884441_agtbm_8byvr_324.jpg"></marquee>
+<div>
+<h3>Hast Thou Considered the Brisket?{{header}}</h3>
+<p ng-class="{textcolor2: float}" ng-mouseenter="float = true" ng-mouseleave="float = false">Bacon ipsum dolor amet pork chop tongue alcatra, sausage meatball t-bone pork belly rump bacon brisket corned beef. Tri-tip brisket t-bone chuck, jowl leberkas chicken ham landjaeger doner cupim pork loin shank. Hamburger beef pastrami bacon turkey, pork chop doner pork belly. Ham tongue leberkas strip steak shoulder bacon, beef ribs hamburger prosciutto rump filet mignon chuck tri-tip pork chop tenderloin. Doner shoulder drumstick tail swine short loin. Beef ribs brisket turkey beef kielbasa meatball cow t-bone bacon meatloaf fatback shoulder ball tip pancetta.</p>
+<a ng-click="clickConfirm($event, 1)" ng-hide="hideMe[1]" href="http://www.google.com">That Link</a><p ng-show="hideMe[1]" class="noLinker"> {{noLink}} </p>
+</div>
+</div>
+</body>
+</html>

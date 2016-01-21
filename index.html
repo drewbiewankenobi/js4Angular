@@ -7,9 +7,9 @@
 	<title>Angularz</title>
 </head>
 <body ng-app="myApp">
-<div ng-controller="clicker" class="center">
+<div ng-controller="clicker" class="center" ng-class = "{'backgrounder'}">
 <button ng-click="clickHappen()">CLICK THIS</button>
-<h1> {{ greeting }} </h1>
+<h1 class="backgrounder"> {{ greeting }} </h1>
 <button ng-click="clickLister()">NOW CLICK THIS SUCKA</button>
 <ul class = "tableStyle">
 	<li>{{ item1 }}</li>
